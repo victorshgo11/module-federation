@@ -1,2 +1,9 @@
-# module-federation
-Initial structure for B2B project.
+# Initial structure with React.js and Module Federation
+
+```bash
+
+# Abra o terminal/CMD e clone este repositório
+$ git clone https://github.com/victorshgo11/module-federation.git
+
+
+```
