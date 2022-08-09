@@ -1,0 +1,25 @@
+import { Meta } from "@storybook/addon-docs";
+import Container from "@mui/material/Container";
+import Paper from "@mui/material/Paper";
+import Typography from "@mui/material/Typography";
+import Alert from "@mui/material/Alert";
+
+<Meta title="Introduction" />
+
+<Container maxWidth="md">
+  <Paper elevation={4} sx={{ padding: "2rem" }}>
+    <Typography variant="h4" component="div">
+      B2B UI
+    </Typography>
+    <hr />
+    <Typography variant="subtitle2" gutterBottom component="div">
+      Este pacote consiste em uma biblioteca de componentes para uso em todos
+      módulos do B2B. Seu objetivo é padronizar as implementações da UI
+      utilizando o Material UI e prover soluções reutilizáveis.
+    </Typography>
+    <br />
+    <Alert severity="info">
+      Status: <strong>Em desenvolvimento.</strong>
+    </Alert>
+  </Paper>
+</Container>
